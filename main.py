@@ -2,7 +2,7 @@ from storage_json import load_json, save_json
 from drives_scanner import scan_valid_drives_to_df, scan_valid_drives_to_dict
 
 DOCUMENTATION_PATH = "drives_documentation.json"
-SPREADSHEET_NAME = "external_drives_docu"  # TODO: rename to "external drives documentation"
+SPREADSHEET_NAME = "external drives documentation"
 
 
 def scan_drives_and_update_documentation_json():
@@ -38,4 +38,5 @@ def main():
 if __name__ == "__main__":
     pass
     main()
+
 
